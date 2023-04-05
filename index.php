@@ -462,7 +462,7 @@
     echo $f; // фаренгейт в цельсия
     ?>
   </div>
-  <div class="subject">
+  <div class="subject"> //не работает
     <?php
 
     $arr = ['a', 'b', 'c'];
