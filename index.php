@@ -462,21 +462,56 @@
     echo $f; // фаренгейт в цельсия
     ?>
   </div>
-  <div class="subject"> //не работает
+  <div class="subject"> 
     <?php
-
-    $arr = ['a', 'b', 'c'];
+    $arr = ['a', 'b', 'c'];// задание 22.1
     echo var_dump($arr);
     ?>
     <?php
-    $arr = ['a', 'b', 'c'];
+    $arr = ['a', 'b', 'c'];// задание 22.2
 
     echo $arr[0] . ' ';
     echo $arr[1] . ' ';
     echo $arr[2] . ' ';
     ?>
+    <?php
+    $arr = ['a', 'b', 'c', 'd'];// задание 22.3
+    echo $arr[0] . '+' . $arr[1] . '+' . $arr[2] . '+' . $arr[3];
+    ?>
+     <?php
+    $arr = ['1', '2', '3'];// задание 22.4
+    $result = $arr[0] + $arr[1] + $arr[2];
+    echo $result;
+    ?>
+    <?php
+   $arr = [2, 5, 3, 9];// задание 22.5
+   echo $result = $arr[0] * $arr[1] + $arr[2] * $arr[3];
+    ?>
   </div>
-
+  <div class="subject"> 
+   <!--Задание 24.1. Проверьте описанное на каком-нибудь из ваших ассоциативных массивов.-->
+   <!--Проверила-->
+  </div>
+  <div class="subject"> 
+  <?php
+    $arr = ['a','b', 'c'];// задание 25.1
+    echo count($arr);
+  ?>
+  <?php
+	  $arr = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4]; // задание 25.2
+    echo count($arr);
+  ?>
+  <?php
+	 $arr = ['a', 'b', 'c', 'd', 'e']; // задание 25.3
+    $last = count($arr) - 1;
+    echo $arr[$last];
+  ?>
+   <?php
+	 $arr = ['a', 'b', 'c', 'd', 'e']; // задание 25.4
+    $last = count($arr) - 2;
+    echo $arr[$last];
+  ?>
+  </div>
 </body>
 
 </html>
